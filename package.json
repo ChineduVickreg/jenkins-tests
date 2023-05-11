@@ -1,0 +1,27 @@
+{
+  "name": "jenkins-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChineduVickreg/jenkins-tests.git"
+  },
+  "author": "\"Chinedu\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChineduVickreg/jenkins-tests/issues"
+  },
+  "homepage": "https://github.com/ChineduVickreg/jenkins-tests#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  },
+  "description": "\"A node app to learn Jenkins\""
+}
